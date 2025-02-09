@@ -24,7 +24,7 @@ from project4.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('app/', include ('project2.urls')),
-    path('exe1/',include('project3.urls')),
-    path('men/',include('project4.urls')),
+    path('app1/',include('project3.urls')),
+    path('app2/',include('project4.urls')),
 
 ]
